@@ -48,10 +48,5 @@
   ],
   "dependencies": {
     "lodash": "^4.1.0"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
   }
 }
