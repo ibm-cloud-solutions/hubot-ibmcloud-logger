@@ -14,10 +14,10 @@ Logging utility for IBM Cloud hubot scripts
   * [License](#license)
   * [Contribute](#contribute)
 
-## Usage <a id="usage"></a>
+## Usage
 This script intercepts calls to `robot.logger` to add more detailed information about the state of the bot when the logging method was invoked. No changes are required, and one can continue to make calls to the logging functions as one normally would.
 
-## Installation <a id="installation"></a>
+## Installation
 ```shell
 npm install -S hubot-ibmcloud-logger
 ```
@@ -44,10 +44,10 @@ robot.logger.error(`${TAG}: An error test`);
 [Tue Jun 28 2016 20:44:12 GMT-0400 (EDT)] ERROR script.js: An error test, Adapter: slack, Robot: hubot, Room: secret-channel, User: {name: 'Mimiron'}
 ```
 
-## License <a id="license"></a>
+## License
 
-See [LICENSE.txt](./LICENSE.txt) for license information.
+See [LICENSE.txt](https://github.com/ibm-cloud-solutions/hubot-ibmcloud-logger/blob/master/LICENSE.txt) for license information.
 
-## Contribute <a id="contribute"></a>
+## Contribute
 
-Please check out our [Contribution Guidelines](./CONTRIBUTING.md) for detailed information on how you can lend a hand.
+Please check out our [Contribution Guidelines](https://github.com/ibm-cloud-solutions/hubot-ibmcloud-logger/blob/master/CONTRIBUTING.md) for detailed information on how you can lend a hand.
