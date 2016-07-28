@@ -16,7 +16,9 @@
     "hubot",
     "hubot-scripts",
     "bluemix",
-    "cloud"
+    "cloud",
+		"ibm cloud",
+		"ibm",
   ],
   "author": "ibm-cloud-solutions",
   "license": "Apache-2.0",
@@ -26,13 +28,9 @@
     "coveralls": "^2.11.12",
     "eslint": "^2.9.0",
     "eslint-config-strongloop": "^2.0.1",
-    "hubot": "^2.19.0",
-    "hubot-help": "^0.2.0",
     "hubot-test-helper": "^1.4.4",
     "istanbul": "0.4.0",
-    "istanbul-cobertura-badger": "1.2.1",
     "mocha": "^2.4.5",
-    "shelljs": "^0.7.0",
     "sinon": "^1.17.4",
     "sinon-chai": "^2.8.0"
   },
@@ -48,10 +46,5 @@
   ],
   "dependencies": {
     "lodash": "^4.1.0"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
   }
 }
