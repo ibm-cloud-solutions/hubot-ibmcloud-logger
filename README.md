@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/ibm-cloud-solutions/hubot-ibmcloud-logger.svg?branch=master)](https://travis-ci.org/ibm-cloud-solutions/hubot-ibmcloud-logger)
 [![Coverage Status](https://coveralls.io/repos/github/ibm-cloud-solutions/hubot-ibmcloud-logger/badge.svg?branch=master)](https://coveralls.io/github/ibm-cloud-solutions/hubot-ibmcloud-logger?branch=master)
 [![Dependency Status](https://dependencyci.com/github/ibm-cloud-solutions/hubot-ibmcloud-logger/badge)](https://dependencyci.com/github/ibm-cloud-solutions/hubot-ibmcloud-logger)
-[![npm](https://img.shields.io/npm/v/hubot-ibmcloud-logger.svg?maxAge=2592000)]()
+[![npm](https://img.shields.io/npm/v/hubot-ibmcloud-logger.svg?maxAge=2592000)](https://www.npmjs.com/package/hubot-ibmcloud-logger)
 
 # hubot-ibmcloud-logger
 
