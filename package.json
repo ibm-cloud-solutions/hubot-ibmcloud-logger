@@ -35,7 +35,8 @@
     "sinon-chai": "^2.8.0"
   },
   "peerDependencies": {
-    "hubot": "^2.19.0"
+    "hubot": "^2.19.0",
+    "lodash": "^4.13.1"
   },
   "engines": {
     "node": ">= 4.2.0"
@@ -44,7 +45,5 @@
     "index.js",
     "src"
   ],
-  "dependencies": {
-    "lodash": "^4.1.0"
-  }
+  "dependencies": {}
 }
