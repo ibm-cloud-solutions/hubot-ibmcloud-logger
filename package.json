@@ -1,6 +1,6 @@
 {
   "name": "hubot-ibmcloud-logger",
-  "version": "0.0.19",
+  "version": "0.0.20",
   "description": "Logging utility for IBM Cloud hubot scripts",
   "main": "index.js",
   "respository": {
@@ -17,8 +17,8 @@
     "hubot-scripts",
     "bluemix",
     "cloud",
-		"ibm cloud",
-		"ibm"
+    "ibm cloud",
+    "ibm"
   ],
   "author": "ibm-cloud-solutions",
   "license": "Apache-2.0",
