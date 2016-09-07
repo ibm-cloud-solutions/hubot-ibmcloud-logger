@@ -22,17 +22,17 @@ const _ = require('lodash');
 module.exports = robot => {
 
 	function getAdapter() {
-		var adapter = _.isNil(robot.adapterName) ? 'unknown' : robot.adapterName;
+		let adapter = _.isNil(robot.adapterName) ? 'unknown' : robot.adapterName;
 		return adapter;
 	};
 
 	function getRobotName() {
-		var robotName = (_.isUndefined(robot.name) || _.isNull(robot.name)) ? 'unknown' : robot.name;
+		let robotName = (_.isUndefined(robot.name) || _.isNull(robot.name)) ? 'unknown' : robot.name;
 		return robotName;
 	};
 
 	function getRoomName() {
-		var roomName = 'unknown';
+		let roomName = 'unknown';
 		if (robot && robot.response && robot.response.message && robot.response.message.room) {
 			roomName = robot.response.message.room;
 		}
@@ -40,7 +40,7 @@ module.exports = robot => {
 	};
 
 	function getUserContext() {
-		var userContext = {};
+		let userContext = {};
 		if (robot && robot.response && robot.response.message && robot.response.message.user) {
 			userContext.id = robot.response.message.user.id;
 			userContext.name = robot.response.message.user.name;
@@ -59,11 +59,11 @@ module.exports = robot => {
 	};
 
 	function formatter(message) {
-		var logMessage = message;
-		var adapter = getAdapter();
-		var robotName = getRobotName();
-		var roomName = getRoomName();
-		var userContext = getUserContext();
+		let logMessage = message;
+		let adapter = getAdapter();
+		let robotName = getRobotName();
+		let roomName = getRoomName();
+		let userContext = getUserContext();
 
 		logMessage = constructLogMessage(logMessage, 'Adapter', adapter);
 		logMessage = constructLogMessage(logMessage, 'Robot', robotName);

@@ -6,8 +6,8 @@
   */
 'use strict';
 
-var path = require('path');
-var TAG = path.basename(__filename);
+const path = require('path');
+const TAG = path.basename(__filename);
 
 const chai = require('chai');
 const expect = chai.expect;
