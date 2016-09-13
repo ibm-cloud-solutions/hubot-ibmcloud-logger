@@ -45,5 +45,9 @@
     "index.js",
     "src"
   ],
-  "dependencies": {}
+  "dependencies": {},
+  "repository": {
+    "url": "https//github.com/ibm-cloud-solutions/hubot-ibmcloud-logger",
+    "type": "git"
+  }
 }
